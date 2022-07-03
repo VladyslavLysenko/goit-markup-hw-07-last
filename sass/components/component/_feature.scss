@@ -3,32 +3,31 @@
     justify-content: center;
     gap: 30px;
 
-    &__item {
-        flex-basis: calc((100% - 90px)/4);
-
-    }
-
-    &__title {
-
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--title-text-color);
-        margin-bottom: 10px;
-    }
-
-    &__wrap {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #F5F4FA;
-        border-radius: 4px;
-        height: 120px;
-        margin-bottom: 30px;
-    }
 }
 
 
+ .feature__wrap {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #F5F4FA;
+     border-radius: 4px;
+     height: 120px;
+     margin-bottom: 30px;
+ }
 
+ .feature__title {
+
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: var(--title-text-color);
+     margin-bottom: 10px;
+ }
+
+   .feature__item {
+       flex-basis: calc((100% - 90px)/4);
+
+   }
